@@ -1,0 +1,29 @@
+DESCRIPTION OF DATA SET: THE VARIABLES
+
+ID = Customer identification
+
+STATUS = which is the target variable of any deactivation in the thirteenth month, ie two months after the last month of which traffic is available (2 levels: 1 - inactive, 0 - active).
+
+piano_tariff = customer tariff plan (5 levels)
+metodo_pagamento = method of payment (3 levels:
+                     1 = reloadable, 2 = credit card, 3 = bank domicile).
+sesso = customer's sex (3 levels:c1-male, 2-female, 3-juridical person)
+etacl = age (years)
+zona_attivaz = of the geographical area of ??activation (3 levels, 4 = missing)
+canale_attivaz = of sales channel for activation (8 levels)
+vas1 = presence of a first value-added service (0 = NO), 1 = Yes)
+vas2 = presence of a second value-added service
+
+---- traffic variables in the previous 2 months available:
+---- For each month, indicated by the first part of the variable name (q01, q09) the following variables are available:
+---- variable description
+q_nn_.out.ch.peak =total monthly number of outgoing calls in the hours when the rate is higher
+q_nn_.out.dur.peak =total monthly duration of outgoing calls in the hours when the rate is higher
+q_nn_.out.val.peak = total monthly value of outgoing calls in the hours when the rate is higher
+q_nn_.out.ch.off = peak total monthly number of outgoing calls in the hours when the rate is lower
+q_nn_.out.dur.off = peak total monthly duration of outgoing calls in the hours when the rate is lower
+q_nn_.out.val.off = peak total monthly value of outgoing calls in the hours when the rate is lower
+q_nn_.in.ch.tot = total monthly number of incoming calls
+q_nn_.in.dur.tot = total monthly duration of incoming calls
+q_nn_.ch.sms = total monthly number of sent SMS
+q_nn_.ch.cc = monthly number of calls to the Service of Customer Assistance
